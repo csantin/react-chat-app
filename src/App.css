@@ -5,6 +5,17 @@
   height: 100vh;
 }
 
+.Login{
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #262626;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
 .App-header {
   background-color: #262626;
   overflow: visible;
@@ -104,4 +115,32 @@ button {
   border: none;
   border-radius: 8px;
   margin-left: 10px;
+}
+
+select {
+  width: 40 px;
+  margin-left: 6px;
+}
+
+label {
+  font-size: 16px;
+  flex-grow: 1;
+  display:block;
+}
+
+.logInput {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+
+.login {
+  margin: auto;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
