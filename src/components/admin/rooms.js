@@ -70,6 +70,7 @@ class Rooms extends Component {
             <div>
                 {(this.state.editRoom) ? <NewRoom /> : null }
             </div>
+            <NewRoom/>
             </div>
         );
     }

@@ -16,6 +16,15 @@
   padding: 8px;
 }
 
+.NewRoom{
+  border: 1px solid black;
+  width: 20%;
+  margin: auto;
+  padding: 8px;
+  display: block;
+  justify-content: center;
+}
+
 .App-header {
   background-color: #262626;
   overflow: visible;
