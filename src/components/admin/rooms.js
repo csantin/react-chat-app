@@ -68,7 +68,7 @@ class Rooms extends Component {
                 <button className="center" onClick={this.onClick}>Create Room</button>
             </div>
             <div>
-                {(this.state.editRoom) ? <NewRoom></NewRoom> : '' }
+                {(this.state.editRoom) ? <NewRoom /> : null }
             </div>
             </div>
         );
