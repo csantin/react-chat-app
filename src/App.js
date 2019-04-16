@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
-import Messages from "./components/Messages";
-import Input from "./components/Input";
 import Login from "./components/login";
 import Room from "./components/room";
 import Admin from "./components/admin";

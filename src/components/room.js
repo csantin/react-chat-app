@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { Route, Switch } from "react-router-dom";
 
 import Messages from "./Messages";
 import Input from "./Input";
-import Login from "./login";
 
 function randomName() {
   const adjectives = [
