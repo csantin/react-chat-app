@@ -128,6 +128,23 @@ label {
   display:block;
 }
 
+table {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
 .logInput {
   display: flex;
   width: 90%;
@@ -143,4 +160,11 @@ label {
 a{
   color: white;
   text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
 }

@@ -86,10 +86,10 @@ class Room  extends Component {
       const message = member.clientData.username + " has left";
       console.log(message)
       console.log(member)
-      console.log(this)
-      const messages = this.state.messages;
-      messages.push({member, text: message});
-      this.setState({messages});
+    //   console.log(this)
+    //   const messages = this.state.messages;
+    //   messages.push({member, text: message});
+    //   this.setState({messages});
     });
  
     room.on('members', function(members) {
